@@ -15,7 +15,8 @@ ms.date: 11/04/2018
 Ambari alert log path ```/var/log/ambari-server/ambari-alerts.log```
 
 ## Gathering more information
-- Checking if the alerting service has stopped and try starting the service.
+- Checking if the alerting service is in Started state.
+- If the alerting service has stopped and try starting the service.
 - 
 
 Enabling debug log for Ambari alert requires changing following in file ```/etc/ambari-server/conf/log4j.properties```
